@@ -1,0 +1,21 @@
+{
+    "name": "alexshent/tbot",
+    "description": "Telegram Bot",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "alexshent\\tbot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexey Shentyakov",
+            "email": "alexey.shentyakov@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.13",
+        "symfony/cache": "^6.0",
+        "doctrine/annotations": "^1.13"
+    }
+}
